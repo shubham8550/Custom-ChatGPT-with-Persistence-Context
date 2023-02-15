@@ -35,7 +35,7 @@ const t = async () => {
   });
   const loop = () => {
     readline.question(`You: `, async (question: string) => {
-      console.log(`AI: ${await ai.ask("919325410051", question)}`);
+      console.log(`AI: ${await ai.ask("your-unique-id-here", question)}`);
       loop();
     });
   };
